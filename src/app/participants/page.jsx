@@ -6,7 +6,7 @@ const Participants = dynamic(() => import("@/components/Participants"), {
   ssr: false,
 });
 
-const page = () => {
+const ParticipantsPage = () => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
@@ -26,4 +26,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Participants;

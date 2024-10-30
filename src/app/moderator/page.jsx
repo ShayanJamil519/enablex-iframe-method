@@ -6,7 +6,7 @@ const Moderator = dynamic(() => import("@/components/Moderator"), {
   ssr: false,
 });
 
-export default function page() {
+export default function ModeratorPage() {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {

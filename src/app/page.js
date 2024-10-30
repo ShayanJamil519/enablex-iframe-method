@@ -1,11 +1,6 @@
 "use client";
-import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-
-const Moderator = dynamic(() => import("@/components/Moderator"), {
-  ssr: false,
-});
 
 export default function Home() {
   const router = useRouter();
